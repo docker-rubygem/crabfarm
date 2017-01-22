@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.7.10
+ENV VERSION=0.7.11
 
 RUN gem install crabfarm --version ${VERSION} --no-format-exec
 
